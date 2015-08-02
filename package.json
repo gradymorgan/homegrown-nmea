@@ -1,16 +1,20 @@
 {
   "name": "homegrown-nmea",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "description": "Parse and create NMEA 0183 messages.",
   "main": "src/nmea.js",
-  "directories": {
-    "test": "test"
-  },
   "keywords": [
     "nmea"
   ],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gradymorgan/homegrown-nmea.git"
+  },
+  "bugs": "https://github.com/gradymorgan/homegrown-nmea/issues",
+  "license": [{
+        "type": "mit",
+        "url": "https://github.com/gradymorgan/homegrown-nmea/blob/master/LICENSE.md"
+  }],
   "dependencies": {
     "lodash": "^2.4.1",
     "winston": "^0.8.3",

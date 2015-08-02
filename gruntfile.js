@@ -38,4 +38,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('test', ['jshint', 'mochaTest']);
+  grunt.registerTask('default', ['test']);
 };
